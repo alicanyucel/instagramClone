@@ -3,10 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginFormComponent } from './components/login-form/login-form.component';
-import { LoginFormFooterComponent } from './components/login-form-footer/login-form-footer.component';
-import { LoginFormBannerComponent } from './components/login-form-banner/login-form-banner.component';
-
+import { LoginFormBannerComponent, LoginFormComponent, LoginFormFooterComponent } from './components';
 @NgModule({
   declarations: [
     AppComponent,

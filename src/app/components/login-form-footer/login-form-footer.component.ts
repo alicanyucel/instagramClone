@@ -5,6 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './login-form-footer.component.html',
   styleUrls: ['./login-form-footer.component.css']
 })
-export class LoginFormFooterComponent {
+export default class LoginFormFooterComponent {
 
 }

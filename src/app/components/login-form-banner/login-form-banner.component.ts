@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './login-form-banner.component.html',
   styleUrls: ['./login-form-banner.component.css']
 })
-export class LoginFormBannerComponent {
+export default class LoginFormBannerComponent {
+  
 
 }
