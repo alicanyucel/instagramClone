@@ -1,8 +1,14 @@
-<p-card  [style]="{width:'600px'}" styleClass="login-form-card">
-    <img class="logo-instagram" alt="Instagram Logo" src="https://jverma.github.io/instagram-motifs/images/instagram.jpg" />
-    <p class="m-0">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, laudantium fuga? Impedit autem a in incidunt obcaecati aut nam consectetur quisquam nihil, delectus eius, alias itaque ducimus? Dolores, et accusantium.
-    </p>
+<p-card [style]="{width:'600px'}" styleClass="login-form-card">
+    <ng-template pTemplate="header">
+        <img class="logo-instagram" alt="Instagram Logo"
+            src="https://jverma.github.io/instagram-motifs/images/instagram.jpg" />
+    </ng-template>
+    <div class="login-form-control-container">
+        <input class="login-form-control p-inputtext-sm" type="text" pInputText
+            placeholder="Telefon Numaranızı,kullanıcı adı,mail adresi">
+        <input class="login-form-control p-inputtext-sm" type="password" pInputText placeholder="Şifrenizi Giriniz">
+        <p-button  class="login-form-control-button" size="large" label="Login">Giriş Yap</p-button>
+    </div>
     <ng-template pTemplate="footer">
     </ng-template>
 </p-card>
