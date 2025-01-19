@@ -1,0 +1,10 @@
+.logo-instagram{
+    width: 12em;
+}
+.login-form-card{
+    display :flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
